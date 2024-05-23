@@ -1,0 +1,19 @@
+post http://localhost:3001/api/patients
+Content-Type: application/json
+
+{
+  "name": "Andrew Mathew",
+  "dateOfBirth": "2002-08-05",
+  "gender": "male",
+  "occupation": "student",
+  "ssn": "300179-77A",
+  "entries": []
+}
+
+###
+post http://localhost:3001/api/patients/d27736ec-f723-11e9-8f0b-362b9e155667/entries
+Content-Type: application/json
+
+{
+  
+}
